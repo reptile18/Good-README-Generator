@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
   return `
-# ${data.title} [![GitHub release](https://img.shields.io/badge/version-${data.version}-informational)](google.com) 
+# ${data.title} ![GitHub release](https://img.shields.io/badge/version-${data.version}-informational) 
 
 ${data.description}
 
@@ -36,7 +36,8 @@ ${data.tests}
 ## Questions
 
 ![author](${data.avatar_url})
-![email icon](blob:https://fontawesome.com/bda285c6-bd10-442c-8af4-146d8d51097f) ${data.email}
+![email icon](https://fontawesome.com/bda285c6-bd10-442c-8af4-146d8d51097f) ${data.email}
+![Github email](https://img.shields.io/badge/email-${data.email}-informational)
 
 `;
 }
