@@ -35,5 +35,5 @@ Test by doing (1) This this this, then (2) that that that, and finally (3) this 
 ## Questions
 
 ![author](https://avatars1.githubusercontent.com/u/61799449?v=4)  
-[![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-informational)](reptile18@gmail.com)
+[![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-informational)](mailto:reptile18@gmail.com)
 
