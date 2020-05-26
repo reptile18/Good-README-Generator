@@ -1,7 +1,7 @@
 
-# Test README.md ![GitHub release](https://img.shields.io/badge/version-1.7.3-informational) 
+# New README.md ![GitHub release](https://img.shields.io/badge/version-2.7.4-informational) 
 
-Test test test test test test test test test test test test test test test test test test test.
+Description description, description description description description, description description description description description description.
 
 #### Table of Contents
 
@@ -34,7 +34,6 @@ Test by doing (1) This this this, then (2) that that that, and finally (3) this 
 
 ## Questions
 
-![author](https://avatars1.githubusercontent.com/u/61799449?v=4)
-n
-![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-informational)
+![author](https://avatars1.githubusercontent.com/u/61799449?v=4)  
+[![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-informational)](reptile18@gmail.com)
 
