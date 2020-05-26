@@ -35,9 +35,8 @@ ${data.tests}
 
 ## Questions
 
-![author](${data.avatar_url})
-![email icon](https://fontawesome.com/bda285c6-bd10-442c-8af4-146d8d51097f) ${data.email}
-![Github email](https://img.shields.io/badge/email-${data.email}-informational)
+![author](${data.avatar_url})  
+[![Github email](https://img.shields.io/badge/email-${data.email}-informational)](${data.email})
 
 `;
 }
