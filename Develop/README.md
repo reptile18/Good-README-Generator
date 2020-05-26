@@ -35,5 +35,7 @@ Test by doing this, then this, then this
 ## Questions
 
 ![author](https://avatars1.githubusercontent.com/u/61799449?v=4)
-![email icon](blob:https://fontawesome.com/bda285c6-bd10-442c-8af4-146d8d51097f) reptile18@gmail.com
+![email icon](<a href="https://olivermak.es/">
+  <img src="https://olivermak.es/resources/icons/favicon144.svg" width="100%" height="144">
+</a>) reptile18@gmail.com
 
