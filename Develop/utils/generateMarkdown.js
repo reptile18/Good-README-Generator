@@ -27,7 +27,7 @@ ${data.license}
 
 ## Contributing
 
-${data.contributing}
+${data.contributors}
 
 ## Tests
 
@@ -36,7 +36,7 @@ ${data.tests}
 ## Questions
 
 ![author](${data.avatar_url})  
-[![Github email](https://img.shields.io/badge/email-${data.email}-informational)](mailto:${data.email})
+[![Github email](https://img.shields.io/badge/email-${data.email}-green)](mailto:${data.email})
 
 `;
 }

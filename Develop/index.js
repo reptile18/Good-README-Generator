@@ -44,7 +44,7 @@ const questions = [
     choices: ["Apache License 2.0","GNU General Public License v3.0","MIT License","Blank"]
   },
   {
-    message: "Contributing: ",
+    message: "Enter a list of collaborators separated by |, name and GitHub username separated by ~ (ex. John Smith~jsmith|Jane Smith~jsmith2): ",
     name: "contributing"
   },
   {
@@ -64,6 +64,19 @@ async function getGitUser(username) {
   return {"avatar_url": avatar_url}//, "email": email}; // email doesn't work yet until I get authentication
 }
 
+function processContributors(data) { 
+  let contributorsMarkdown = "";
+  data.contributing.split("|").forEach((userString) => {
+    console.log(userString);
+    console.log(typeof userString);
+    const userPieces = userString.split("~");
+
+    contributorsMarkdown += `* [${userPieces[0]}](https://github.com/${userPieces[1]})  
+`
+  });
+  return contributorsMarkdown;
+}
+
 function writeToFile(fileName, data) {
   const markdownRaw = genMD(data);
 
@@ -71,10 +84,12 @@ function writeToFile(fileName, data) {
 }
 
 async function init() {
-  const data = await inquirer.prompt(questions);
+  let data = await inquirer.prompt(questions);
   const gitUserData = await getGitUser(data.username);
-  const readmeData = {...data,...gitUserData} 
-  await writeToFile("README.md",readmeData);
+  data = {...data,...gitUserData} 
+  const contributors = await processContributors(data);
+  data = {...data,...{"contributors": contributors}};
+  await writeToFile("README.md",data);
 }
 
 init();

@@ -1,5 +1,5 @@
 
-# New README.md ![GitHub release](https://img.shields.io/badge/version-2.7.4-informational) 
+# New readme ![GitHub release](https://img.shields.io/badge/version-2.8.7-informational) 
 
 Description description, description description description description, description description description description description description.
 
@@ -26,7 +26,9 @@ GNU General Public License v3.0
 
 ## Contributing
 
-Johnny Li
+* [Johnny Li](https://github.com/reptile18)  
+* [Erin Smith](https://github.com/erin-smith)  
+
 
 ## Tests
 
@@ -35,5 +37,5 @@ Test by doing (1) This this this, then (2) that that that, and finally (3) this 
 ## Questions
 
 ![author](https://avatars1.githubusercontent.com/u/61799449?v=4)  
-[![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-informational)](mailto:reptile18@gmail.com)
+[![Github email](https://img.shields.io/badge/email-reptile18@gmail.com-green)](mailto:reptile18@gmail.com)
 
