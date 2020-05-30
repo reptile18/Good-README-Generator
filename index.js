@@ -89,7 +89,7 @@ async function init() {
   data = {...data,...gitUserData} 
   const contributors = await processContributors(data);
   data = {...data,...{"contributors": contributors}};
-  await writeToFile("README.md",data);
+  await writeToFile("Generated.README.md",data);
 }
 
 init();
