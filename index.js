@@ -67,8 +67,6 @@ async function getGitUser(username) {
 function processContributors(data) { 
   let contributorsMarkdown = "";
   data.contributing.split("|").forEach((userString) => {
-    console.log(userString);
-    console.log(typeof userString);
     const userPieces = userString.split("~");
 
     contributorsMarkdown += `* [${userPieces[0]}](https://github.com/${userPieces[1]})  
@@ -90,6 +88,7 @@ async function init() {
   const contributors = await processContributors(data);
   data = {...data,...{"contributors": contributors}};
   await writeToFile("Generated.README.md",data);
+  console.log("Generated.README.md generated.")
 }
 
 init();

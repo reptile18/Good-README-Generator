@@ -1,7 +1,9 @@
 
-# New readme ![GitHub release](https://img.shields.io/badge/version-2.8.7-informational) 
+# Good README.md Generator ![GitHub release](https://img.shields.io/badge/version-1.0-informational) 
 
-Description description, description description description description, description description description description description description.
+[![Youtube Walkthrough](fakeyoutubeembed.png)](https://youtu.be/tK_eEkkiu1E)
+
+Node.js application that generates a README.md based on user input.
 
 #### Table of Contents
 
@@ -14,11 +16,21 @@ Description description, description description description description, descri
 
 ## Installation
 
-Install by doing (1) This this this, then (2) that that that, and finally finish by doing (3) this this this.
+After cloning the repository, type:
+```
+npm install
+```
 
 ## Usage
 
-Use by doing this, then this, then this.
+To run, type:
+```
+node ./index.js
+```
+
+Next, simply follow the prompts.
+
+For more information, watch the walkthrough video.
 
 ## License 
 
@@ -27,12 +39,11 @@ GNU General Public License v3.0
 ## Contributing
 
 * [Johnny Li](https://github.com/reptile18)  
-* [Erin Smith](https://github.com/erin-smith)  
 
 
 ## Tests
 
-Test by doing (1) This this this, then (2) that that that, and finally (3) this this this.
+Follow the steps provided in the walkthrough video.
 
 ## Questions
 
